@@ -1,0 +1,19 @@
+@font-face {
+  font-family: universRoman;
+  src: url(assets/fonts/Univers55Roman_normal_normal.woff2) format("opentype");
+}
+@font-face {
+  font-family: universBold;
+  src: url(assets/fonts/Univers65Bold_normal_normal.woff2) format("opentype");
+}
+@font-face {
+  font-family: universBoldCondensed;
+  src: url(assets/fonts/Univers67BoldCondensed_normal_condensed.woff2) format("opentype");
+}
+
+body,html{
+  font-family: universRoman, universBold, universBoldCondensed, serif;
+  margin : 0;
+  padding: 0;
+  height: 100%;
+}

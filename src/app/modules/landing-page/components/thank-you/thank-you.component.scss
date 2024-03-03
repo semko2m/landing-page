@@ -1,0 +1,14 @@
+.thank-you{
+  background-color: rgba(194, 26, 26, 0.6);
+  animation-delay: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  color: white;
+}
+:host{
+  animation-delay: inherit;
+  grid-row: 3;
+  display: grid;
+}
